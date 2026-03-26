@@ -3,67 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Super Projet | Créé par IA</title>
+    <title>Accueil | Mon Projet IA</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        body { background-color: #0f172a; color: white; font-family: 'Inter', sans-serif; }
-        .gradient-text {
-            background: linear-gradient(90deg, #38bdf8, #818cf8);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-    </style>
 </head>
-<body>
-
+<body class="bg-[#0f172a] text-white font-sans">
     <nav class="flex justify-between items-center p-6 max-w-6xl mx-auto">
         <div class="text-2xl font-bold tracking-tighter">PROTO<span class="text-sky-400">TYPE</span></div>
         <div class="hidden md:flex gap-8 text-gray-400">
-            <a href="#" class="hover:text-white transition">Accueil</a>
-            <a href="#" class="hover:text-white transition">Services</a>
-            <a href="#" class="hover:text-white transition">Contact</a>
+            <a href="index.html" class="text-white font-bold">Accueil</a>
+            <a href="services.html" class="hover:text-white transition">Services</a>
+            <a href="portfolio.html" class="hover:text-white transition">Portfolio</a>
+            <a href="contact.html" class="hover:text-white transition">Contact</a>
         </div>
-        <button class="bg-sky-500 hover:bg-sky-600 px-5 py-2 rounded-full font-medium transition">
-            Démarrer
-        </button>
+        <a href="contact.html" class="bg-sky-500 hover:bg-sky-600 px-5 py-2 rounded-full font-medium transition">Démarrer</a>
     </nav>
 
-    <header class="max-w-4xl mx-auto text-center mt-24 px-6">
-        <h1 class="text-5xl md:text-7xl font-extrabold mb-6 leading-tight">
-            Construisez l'avenir avec <span class="gradient-text">l'Intelligence Artificielle</span>
-        </h1>
-        <p class="text-gray-400 text-lg md:text-xl mb-10 max-w-2xl mx-auto">
-            Une interface fluide, un code propre et un design pensé pour la conversion. Généré en quelques secondes, prêt pour l'éternité.
-        </p>
-        <div class="flex flex-col md:flex-row justify-center gap-4">
-            <button class="bg-white text-slate-950 px-8 py-4 rounded-xl font-bold text-lg hover:bg-gray-200 transition">
-                Lancer mon projet
-            </button>
-            <button class="border border-slate-700 px-8 py-4 rounded-xl font-bold text-lg hover:bg-slate-800 transition">
-                En savoir plus
-            </button>
-        </div>
+    <header class="max-w-4xl mx-auto text-center mt-24 px-6 pb-20">
+        <h1 class="text-5xl md:text-7xl font-extrabold mb-6 leading-tight">Bienvenue sur mon <span class="text-sky-400">Nouveau Site</span></h1>
+        <p class="text-gray-400 text-lg mb-10">Explorez mes services et mon portfolio via le menu ci-dessus.</p>
+        <a href="services.html" class="bg-white text-black px-8 py-4 rounded-xl font-bold hover:bg-gray-200 transition">Voir mes services</a>
     </header>
-
-    <section class="max-w-6xl mx-auto mt-32 px-6 pb-20">
-        <div class="grid md:grid-cols-3 gap-8">
-            <div class="p-8 rounded-3xl bg-slate-800/50 border border-slate-700">
-                <div class="text-sky-400 mb-4">✦ Rapidité</div>
-                <h3 class="text-xl font-bold mb-2">Performance Optique</h3>
-                <p class="text-gray-400">Chargement instantané pour une expérience utilisateur sans friction.</p>
-            </div>
-            <div class="p-8 rounded-3xl bg-slate-800/50 border border-slate-700">
-                <div class="text-indigo-400 mb-4">✦ Sécurité</div>
-                <h3 class="text-xl font-bold mb-2">Chiffrement IA</h3>
-                <p class="text-gray-400">Vos données sont protégées par les protocoles les plus robustes de 2026.</p>
-            </div>
-            <div class="p-8 rounded-3xl bg-slate-800/50 border border-slate-700">
-                <div class="text-purple-400 mb-4">✦ Design</div>
-                <h3 class="text-xl font-bold mb-2">Adaptatif</h3>
-                <p class="text-gray-400">Un rendu parfait sur smartphone, tablette et écran 8K.</p>
-            </div>
-        </div>
-    </section>
-
 </body>
 </html>
